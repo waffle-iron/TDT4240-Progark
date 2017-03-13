@@ -1,3 +1,10 @@
+//
+//  GameScene.swift
+//  Drop
+//
+//  Created by Hung Quang Thieu on 09/03/2017.
+//  Copyright © 2017 Team15. All rights reserved.
+//
 
 import SpriteKit
 import GameplayKit
