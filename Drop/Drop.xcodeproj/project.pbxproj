@@ -10,6 +10,7 @@
 		1BD728421E76DE5100CE0B2A /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD728411E76DE5100CE0B2A /* menuVC.swift */; };
 		1BD728481E76EF6D00CE0B2A /* multiplayerMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD728471E76EF6D00CE0B2A /* multiplayerMenuVC.swift */; };
 		1BD7284A1E76EF9500CE0B2A /* singleplayerMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD728491E76EF9500CE0B2A /* singleplayerMenuVC.swift */; };
+		1BD728501E78017900CE0B2A /* optionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7284F1E78017900CE0B2A /* optionsVC.swift */; };
 		9565C3A71E76D53300C5BF83 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565C3A61E76D53300C5BF83 /* MainMenuScene.swift */; };
 		9565C3A91E76D5A700C5BF83 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9565C3A81E76D5A700C5BF83 /* MainMenu.sks */; };
 		9582DB121E71A0A600335B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582DB111E71A0A600335B2F /* AppDelegate.swift */; };
@@ -43,6 +44,7 @@
 		1BD728411E76DE5100CE0B2A /* menuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
 		1BD728471E76EF6D00CE0B2A /* multiplayerMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = multiplayerMenuVC.swift; sourceTree = "<group>"; };
 		1BD728491E76EF9500CE0B2A /* singleplayerMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singleplayerMenuVC.swift; sourceTree = "<group>"; };
+		1BD7284F1E78017900CE0B2A /* optionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = optionsVC.swift; sourceTree = "<group>"; };
 		9565C3A61E76D53300C5BF83 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		9565C3A81E76D5A700C5BF83 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		9582DB0E1E71A0A600335B2F /* Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drop.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +147,7 @@
 				1BD728411E76DE5100CE0B2A /* menuVC.swift */,
 				1BD728471E76EF6D00CE0B2A /* multiplayerMenuVC.swift */,
 				1BD728491E76EF9500CE0B2A /* singleplayerMenuVC.swift */,
+				1BD7284F1E78017900CE0B2A /* optionsVC.swift */,
 			);
 			path = Drop;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9565C3A71E76D53300C5BF83 /* MainMenuScene.swift in Sources */,
+				1BD728501E78017900CE0B2A /* optionsVC.swift in Sources */,
 				1BD7284A1E76EF9500CE0B2A /* singleplayerMenuVC.swift in Sources */,
 				1BD728421E76DE5100CE0B2A /* menuVC.swift in Sources */,
 				1BD728481E76EF6D00CE0B2A /* multiplayerMenuVC.swift in Sources */,
