@@ -20,6 +20,7 @@
 		9582DB221E71A0A600335B2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9582DB201E71A0A600335B2F /* LaunchScreen.storyboard */; };
 		9582DB2D1E71A0A600335B2F /* DropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582DB2C1E71A0A600335B2F /* DropTests.swift */; };
 		9582DB381E71A0A600335B2F /* DropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582DB371E71A0A600335B2F /* DropUITests.swift */; };
+		95D2557E1E7ABC6300DA813A /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D2557D1E7ABC6300DA813A /* ItemController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		9582DB331E71A0A600335B2F /* DropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9582DB371E71A0A600335B2F /* DropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropUITests.swift; sourceTree = "<group>"; };
 		9582DB391E71A0A600335B2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D2557D1E7ABC6300DA813A /* ItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		9565C3A41E76D4F400C5BF83 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				95D2557C1E7ABC4E00DA813A /* Items Controller Classes */,
 				9565C3AF1E76F6B500C5BF83 /* Player Class */,
 				9565C3AA1E76D60D00C5BF83 /* Scene Classes */,
 			);
@@ -173,6 +176,14 @@
 				9582DB391E71A0A600335B2F /* Info.plist */,
 			);
 			path = DropUITests;
+			sourceTree = "<group>";
+		};
+		95D2557C1E7ABC4E00DA813A /* Items Controller Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95D2557D1E7ABC6300DA813A /* ItemController.swift */,
+			);
+			name = "Items Controller Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +327,7 @@
 				9582DB1A1E71A0A600335B2F /* GameViewController.swift in Sources */,
 				9582DB121E71A0A600335B2F /* AppDelegate.swift in Sources */,
 				9565C3B11E76F6C400C5BF83 /* Player.swift in Sources */,
+				95D2557E1E7ABC6300DA813A /* ItemController.swift in Sources */,
 				9565C3AE1E76D76F00C5BF83 /* GameplaySceneClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

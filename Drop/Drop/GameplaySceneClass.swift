@@ -16,7 +16,7 @@ class GameplaySceneClass: SKScene{
     
     private var canMove = false, moveLeft = false;
     
-    
+    private var itemController = ItemController();
     
     override func didMove(to view: SKView) {
         initializeGame();
@@ -30,6 +30,8 @@ class GameplaySceneClass: SKScene{
         player = childNode(withName: "Player") as? Player!;
         
         center = self.frame.size.width / self.frame.size.height;
+        
+        Timer.scheduledTimer(timeInterval: TimeInterval(itemController.randomBetweenNumbers(firstNum: 1, secondNum: 2)), target: self, selector: #selector(GameplaySceneClass.spawnItems), userInfo: nil, repeats: true);
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -55,6 +57,11 @@ class GameplaySceneClass: SKScene{
         if canMove{
             player?.move(left: moveLeft);
         }
+    }
+    
+    //Adding a child (falling objects) to the scene
+    func spawnItems(){
+        self.scene?.addChild(itemController.spawnItems());
     }
     
 }
