@@ -22,15 +22,15 @@ class ItemController {
         
         let item: SKSpriteNode?;
         
-        // Spawn a bomb if the random number is between 6-10
-        if Int(randomBetweenNumbers(firstNum: 0, secondNum: 10)) >= 6 {
+        // Spawn a bomb if the random number is between 3-10
+        if Int(randomBetweenNumbers(firstNum: 0, secondNum: 10)) >= 3 {
             item = SKSpriteNode(imageNamed: "Bomb");
             item!.name = "Bomb";
             item!.setScale(0.6);
             item!.physicsBody = SKPhysicsBody(circleOfRadius: item!.size.height / 2);
             
         }
-        // Spawn a fruit if the random number is between 1-5
+        // Spawn a fruit if the random number is between 1-2
         else{
             let num = Int(randomBetweenNumbers(firstNum: 1, secondNum: 5));
             
