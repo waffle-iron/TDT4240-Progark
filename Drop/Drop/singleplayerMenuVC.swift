@@ -11,11 +11,22 @@ import UIKit
 class singleplayerMenuVC: UIViewController{
     override func viewDidLoad() {
     }
+    
     @IBAction func back(_ sender: UIButton) {
         backToMenu()
     }
+    
+    @IBAction func startGame(_ sender: Any) {
+        startgame()
+    }
+    
     func backToMenu(){
         let menuVC = self.storyboard?.instantiateViewController(withIdentifier: "menuVC") as! menuVC
         self.navigationController?.pushViewController(menuVC, animated: true)
+    }
+    func startgame(){
+        let GameViewController = self.storyboard?.instantiateViewController(withIdentifier: "GameViewController") as! GameViewController
+        self.navigationController?.pushViewController(GameViewController, animated: true)
+        
     }
 }
