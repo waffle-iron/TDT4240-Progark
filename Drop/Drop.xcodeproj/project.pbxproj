@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD728421E76DE5100CE0B2A /* menuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD728411E76DE5100CE0B2A /* menuVC.swift */; };
+		1BD728481E76EF6D00CE0B2A /* multiplayerMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD728471E76EF6D00CE0B2A /* multiplayerMenuVC.swift */; };
+		1BD7284A1E76EF9500CE0B2A /* singleplayerMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD728491E76EF9500CE0B2A /* singleplayerMenuVC.swift */; };
+		1BD728501E78017900CE0B2A /* optionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD7284F1E78017900CE0B2A /* optionsVC.swift */; };
+		1BFE0D311E800A56007E45F0 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFE0D301E800A56007E45F0 /* loginVC.swift */; };
 		9565C3A71E76D53300C5BF83 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565C3A61E76D53300C5BF83 /* MainMenuScene.swift */; };
 		9565C3A91E76D5A700C5BF83 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9565C3A81E76D5A700C5BF83 /* MainMenu.sks */; };
 		9565C3AC1E76D75900C5BF83 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9565C3AB1E76D75900C5BF83 /* GameplayScene.sks */; };
@@ -41,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BD728411E76DE5100CE0B2A /* menuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuVC.swift; sourceTree = "<group>"; };
+		1BD728471E76EF6D00CE0B2A /* multiplayerMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = multiplayerMenuVC.swift; sourceTree = "<group>"; };
+		1BD728491E76EF9500CE0B2A /* singleplayerMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singleplayerMenuVC.swift; sourceTree = "<group>"; };
+		1BD7284F1E78017900CE0B2A /* optionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = optionsVC.swift; sourceTree = "<group>"; };
+		1BFE0D301E800A56007E45F0 /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
 		9565C3A61E76D53300C5BF83 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		9565C3A81E76D5A700C5BF83 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		9565C3AB1E76D75900C5BF83 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
@@ -156,6 +166,11 @@
 				9582DB1E1E71A0A600335B2F /* Assets.xcassets */,
 				9582DB201E71A0A600335B2F /* LaunchScreen.storyboard */,
 				9582DB231E71A0A600335B2F /* Info.plist */,
+				1BD728411E76DE5100CE0B2A /* menuVC.swift */,
+				1BD728471E76EF6D00CE0B2A /* multiplayerMenuVC.swift */,
+				1BD728491E76EF9500CE0B2A /* singleplayerMenuVC.swift */,
+				1BD7284F1E78017900CE0B2A /* optionsVC.swift */,
+				1BFE0D301E800A56007E45F0 /* loginVC.swift */,
 			);
 			path = Drop;
 			sourceTree = "<group>";
@@ -325,6 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9565C3A71E76D53300C5BF83 /* MainMenuScene.swift in Sources */,
+				1BD728501E78017900CE0B2A /* optionsVC.swift in Sources */,
+				1BFE0D311E800A56007E45F0 /* loginVC.swift in Sources */,
+				1BD7284A1E76EF9500CE0B2A /* singleplayerMenuVC.swift in Sources */,
+				1BD728421E76DE5100CE0B2A /* menuVC.swift in Sources */,
+				1BD728481E76EF6D00CE0B2A /* multiplayerMenuVC.swift in Sources */,
 				9582DB1A1E71A0A600335B2F /* GameViewController.swift in Sources */,
 				9582DB121E71A0A600335B2F /* AppDelegate.swift in Sources */,
 				9565C3B11E76F6C400C5BF83 /* Player.swift in Sources */,
