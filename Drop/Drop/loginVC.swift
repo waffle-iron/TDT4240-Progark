@@ -22,7 +22,7 @@ class loginVC: UIViewController{
     
     @IBAction func login(_ sender: UIButton) {
         let defaults = UserDefaults.standard
-        if
+    
         if verifyUsername(self.userName.text!) {
     
             defaults.set(self.userName.text!, forKey: "userName")
